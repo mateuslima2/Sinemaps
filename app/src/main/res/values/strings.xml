@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sinemaps</string>
+    <string name="title_activity_lista_sine">ListaSineActivity</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_sine_regiao">SineRegiaoActivity</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+</resources>

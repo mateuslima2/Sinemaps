@@ -252,7 +252,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             Double latitude = Double.valueOf(sinesProximos.get(i).getLatitude());
             Double longitude = Double.valueOf(sinesProximos.get(i).getLongitude());
             LatLng ponto = new LatLng(latitude, longitude);
-            mMap.addMarker(new MarkerOptions().position(ponto).title(sinesProximos.get(i).getNome()));
+            mMap.addMarker(new MarkerOptions().position(ponto).title(sinesProximos.get(i).getNome()).icon(BitmapDescriptorFactory.fromResource(R.drawable.icon_blue));
+            );
         }
     }
 }
